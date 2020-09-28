@@ -1,0 +1,21 @@
+
+import math
+#print(my_name , my_surename , my_phone_number , my_education, sep="\n")
+
+#print(type(my_name))
+#print(type(my_phone_number))
+#print(type(float_var))
+
+a = 1
+b = 3
+c = 9
+x = 2
+
+
+k = a*(x**2) + b*x + c
+print(k)
+
+d = 0.5*(b**2 - 4*a*c)
+print(d)
+
+

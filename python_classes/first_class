@@ -1,0 +1,7 @@
+print("Hello World!!!", "I'm Nana ", end="_")
+#print("Name", "\tNana", "Surname","\tGalstyan")
+
+print("Name", end="  ")
+print("Nana", end="  ")
+print("Surname", end="  ")
+print("Galstyan")
