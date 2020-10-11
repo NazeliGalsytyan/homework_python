@@ -21,23 +21,23 @@
 
 class PairIndices:
 
-	def __init__(self, array, arrey_size, sum_):
+	def __init__(self, array, target):
 		self.array = array
-		self.arrey_size = len(array)
-		self.sum_ = sum_
+		#self.arrey_size = len(array)
+		self.target = target
 
 	def pairing(self):	
-		# set_array = set()
+		set_array = set()
 
-		for i in range(0,self.array):
-			num_1 = sum_ - array[i]
+		for i in self.array:
+			num_1 = self.target - self.array[i]
 			if num_1 in set_array:
-				print("The pair with given sum" +str(sum_)+ "is (" + str(arr[i]) + ", " + str(temp) + ")")
+				print("The pair for given target" +str(target)+ "is (" + str(array[i]) + ", " + str(num_1) + ")")
 			else:
 				set_array.add(array[i])
 
-the_array = [1,3,5,7,9,-10]
-indices = PairIndices(the_array, len(the_array), 6)
+#the_array = ([10,20,10,40,50,60,70])
+indices = PairIndices(([10,20,10,40,50,60,70]), 50)
 
 indices.pairing()
 
