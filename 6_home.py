@@ -8,7 +8,7 @@ class HouseHeating:
 		return F"The current temperature is {self.current_temperature} celsius."
 
 	def set_temperature(self):
-		self.current_temperature = self.goal_temperature
+		self.goal_temperature = self.current_temperature 
 		return F"The goal temperature is {self.goal_temperature} celsius."
 
 	def temperature_check(self):
@@ -20,11 +20,11 @@ class HouseHeating:
 
 	def normal_temp_check(self):
 		if 21 < self.current_temperature < 27:
-			return "The current tempereture is in range of normal."	
+			return "The current tempereture is in range of normal.\n"	
 		elif self.current_temperature > 27:
-			return "The current tempereture is higher then recommended normal."
+			return "The current tempereture is higher then recommended normal.\n"
 		elif self.current_temperature < 21:
-			return "The current tempereture is lower then recommended normal."	
+			return "The current tempereture is lower then recommended normal.\n"	
 					
 
 house_1 = HouseHeating(16,20)		
