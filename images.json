@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "name": "python_image",
+      "url": "https://business.blogthinkbig.com/wp-content/uploads/sites/2/2019/04/Pythonlogo.jpg"
+    },
+    {
+      "name": "multithreading_image",
+      "url": "https://d33wubrfki0l68.cloudfront.net/068a31a66053ff64f78184d971196829cf927fba/c892f/wp-content/uploads/2017/07/multithreading.png"
+    },
+    {
+      "name": "yerevan_image",
+      "url": "https://cdn.britannica.com/85/133085-050-FF7058E4/Yerevan-peaks-Arm-background-Mount-Ararat.jpg"
+    },
+    {
+      "name": "paris_image",
+      "url": "https://media.cntraveler.com/photos/5cf96a9dd9fb41f17ed08435/master/pass/Eiffel%20Tower_GettyImages-1005348968.jpg"
+    },
+    {
+      "name": "madrid_image",
+      "url": "https://img.theculturetrip.com/768x432/wp-content/uploads/2017/02/gran-via-main-shopping-street-in-madrid.jpg"
+    },
+    {
+      "name": "rome_image",
+      "url": "https://media.timeout.com/images/105211701/image.jpg"
+    },
+    {
+      "name": "prage_image",
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/a7/48/37/getlstd-property-photo.jpg"
+    },
+    {
+      "name": "melbourne_image",
+      "url": "https://res.cloudinary.com/redballoon/image/upload/c_fill,f_auto/v1557210966/cc-category-images/Compressed%20category%20images/RB-AU-landing-page-1152x648-Melbourne.jpg"
+    },
+    {
+      "name": "sidney_image",
+      "url": "https://image.shutterstock.com/image-photo/sidney-harbour-bridge-sunset-australia-260nw-1406959598.jpg"
+    },
+    {
+      "name": "berlin_image",
+      "url": "https://media.globalchampionstour.com/cache/750x429/assets/berlin.jpg"
+    }
+  ]
+}
